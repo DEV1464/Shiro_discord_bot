@@ -2,44 +2,6 @@
 import discord
 import pyfiglet
 import discord
-import logging    
-from discord.ext import tasks 
-from GoogleNews import GoogleNews
-from discord.colour import Color
-from discord import Intents
-import os
-import sys
-import time
-from discord import Member
-import discord
-from discord.ext.commands import has_permissions, MissingPermissions
-from pyfiglet import Figlet
-from datetime import datetime
-from discord.ext.commands import has_permissions
-import requests
-import os
-import datetime
-import random
-import scapy
-import json
-from googlesearch import search 
-import wikipedia
-import requests
-import time
-import reddit
-from bs4 import BeautifulSoup
-from discord import Webhook, AsyncWebhookAdapter
-from discord.ext import commands, tasks
-from discord.ext.commands import Bot
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
-import discord
-from datetime import datetime
-import os
-import random
-from discord import Member
-from discord.ext.commands import has_permissions, MissingPermissions
-from discord.ext import commands
-from discord.utils import find
 import asyncio
 import functools
 import itertools
@@ -47,6 +9,32 @@ import math
 import numpy
 import sympy
 import urllib.request
+import logging    
+from discord.ext import tasks 
+from GoogleNews import GoogleNews
+from discord.colour import Color
+from discord import Intents
+import sys
+import time
+from discord import Member
+import discord
+from discord.ext.commands import has_permissions, MissingPermissions
+from pyfiglet import Figlet
+import requests
+import os
+import random
+import scapy
+import json
+from googlesearch import search 
+import wikipedia
+import requests
+from bs4 import BeautifulSoup
+from discord import Webhook, AsyncWebhookAdapter
+from discord.ext import commands, tasks
+from discord.ext.commands import Bot
+from datetime import datetime
+from discord import Member
+from discord.utils import find
 
 api_key = "enter your openweather api key"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"

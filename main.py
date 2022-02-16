@@ -2,26 +2,19 @@
 import discord
 import pyfiglet
 import discord
-from discord.ext import commands
-from discord_slash import SlashCommand, SlashContext
 import logging    
 from discord.ext import tasks 
 from GoogleNews import GoogleNews
 from discord.colour import Color
-import discord
-from discord.ext import commands
 from discord import Intents
-from discord.ext.commands import Bot
 import os
 import sys
 import time
 from discord import Member
 import discord
-from discord.ext import commands
 from discord.ext.commands import has_permissions, MissingPermissions
 from pyfiglet import Figlet
 from datetime import datetime
-from discord.ext import commands
 from discord.ext.commands import has_permissions
 import requests
 import os
@@ -30,7 +23,6 @@ import random
 import scapy
 import json
 from googlesearch import search 
-from discord.ext import commands
 import wikipedia
 import requests
 import time
@@ -52,8 +44,6 @@ import asyncio
 import functools
 import itertools
 import math
-import youtube_dl
-from async_timeout import timeout
 import numpy
 import sympy
 import urllib.request
@@ -82,9 +72,6 @@ async def on_ready():
         
 @bot.event
 async def on_message(message):
-    if message.channel.id =='921310288417013770':
-        await message.add_reaction("✅") 
-        await message.add_reaction("❌")
                                                
     if message.author == bot.user:
         return

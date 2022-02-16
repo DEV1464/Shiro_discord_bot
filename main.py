@@ -10,7 +10,6 @@ import numpy
 import sympy
 import urllib.request
 import logging    
-from discord.ext import tasks 
 from GoogleNews import GoogleNews
 from discord.colour import Color
 from discord import Intents

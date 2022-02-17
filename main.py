@@ -1,4 +1,3 @@
-
 import discord
 import pyfiglet
 import discord
@@ -34,6 +33,7 @@ from discord.ext.commands import Bot
 from datetime import datetime
 from discord import Member
 from discord.utils import find
+from async_timeout import timeout
 
 api_key = "enter your openweather api key"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
@@ -42,7 +42,6 @@ client = discord.Client()
 TOKEN = "Enter your Token"
  
 bot = commands.Bot(command_prefix="-",intents=discord.Intents.all())
-slash = SlashCommand(bot)
 
 @bot.event
 async def on_ready():
